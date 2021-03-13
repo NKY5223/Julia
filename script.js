@@ -11,8 +11,8 @@ const camX = 0;
 const camY = 0;
 const max_iter = 200;
 const n = 2;
-const cRE = -0.76;
-const cIM = 0.05;
+const cRE = -2;
+const cIM = 0;
 
 const wikipedia = ["#421e0f", "#19071a", "#09012f", "#040449", "#000764", "#0c2c8a", "#1852b1", "#397dd1", "#86b5e5", "#d3ecf8", "#f1e9bf", "#f8c95f", "#ffaa00", "#cc8000", "#995700", "#6a3403"];
 
