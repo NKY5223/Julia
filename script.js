@@ -3,6 +3,7 @@
  */
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
+const SearchParams = new URLSearchParams(location.search);
 
 
 const unit = parseFloat(SearchParams.get("unit")) || 200;
@@ -10,7 +11,7 @@ const scale = parseFloat(SearchParams.get("scale")) || 200;
 const camX = parseFloat(SearchParams.get("camX")) || 0;
 const camY = parseFloat(SearchParams.get("camY")) || 0;
 const max_iter = parseFloat(SearchParams.get("maxIter")) || 1000;
-const n = parseFloat(SearchParams.get("power")) || 2;
+const n = parseFloat(SearchParams.get("n")) || 2;
 const cRE = parseFloat(SearchParams.get("cRE")) || 0;
 const cIM = parseFloat(SearchParams.get("cIM")) || 0;
 
